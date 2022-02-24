@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EMDS FORM</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<h1>Form</h1>
+	<form action="send.php" method="get">
+		<label>First name</label>
+		<input type="text" name="nombre" required>
+		<label>Last name</label>
+		<input type="text" name="apellido" required>
+		<label>Age</label>
+		<input type="number" name="edad" required>
+		<label>Phone number</label>
+		<input type="tel" name="telefono" placeholder="+52" required>
+		<label>E-mail</label>
+		<input type="mail" name="correo" placeholder="example@domain.com" required>
+		<br>
+		<input type="submit" value="Send">
+		<input type="reset" value="Delete">
+	</form>
+</body>
+</html>
